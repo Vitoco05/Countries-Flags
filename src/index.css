@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.darkTheme {
+    @apply dark:bg-dark-blue dark:text-white
+    dark:shadow-dark-blue/10 transition-colors
+}
+
+.lightTheme {
+    @apply shadow-elements shadow-dark-gray/30
+}
